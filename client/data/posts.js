@@ -13,19 +13,19 @@ const posts = [
    },
    {
       "code":"BAPIPRjQce9",
-      "caption":"using cloud",
+      "caption":"Website to connect interns",
       "likes":47,
       "id":"1157179863266871229",
    },
    {
       "code":"-hZh6IQcfN",
-      "caption":"Coffee chat application inorder to connect individuals from different departments",
+      "caption":"Coffee chat application inorder to connect diff departments",
       "likes":66,
       "id":"1126293663140399053",
    },
    {
       "code":"-B3eiIwcYV",
-      "caption":"Submit intern newsletter pictures via a website versus emailing🇸",
+      "caption":"Submit intern newsletter pictures via a website versus emailing",
       "likes":33,
       "id":"1117418173361145365",
    },
