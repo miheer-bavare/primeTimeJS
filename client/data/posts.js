@@ -19,7 +19,7 @@ const posts = [
    },
    {
       "code":"-hZh6IQcfN",
-      "caption":"Coffee chat application inorder to connect diff departments",
+      "caption":"Coffee chat application in order to connect diff departments",
       "likes":66,
       "id":"1126293663140399053",
    },
@@ -31,7 +31,7 @@ const posts = [
    },
    {
       "code":"BAhvZrRwcfu",
-      "caption":"improivng UI of confluence",
+      "caption":"Improivng UI of confluence",
       "likes":30,
       "id":"1162418651480049646",
    },
