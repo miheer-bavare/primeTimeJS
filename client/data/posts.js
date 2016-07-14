@@ -130,13 +130,8 @@ const posts = [
       "caption":".",
       "likes":27,
       "id":"1122810327591928991",
-   },
-   {
-      "code":"-FpTyHQcau",
-      "caption":"".",
-      "likes":82,
-      "id":"1118481761857291950",
    }
+   
 ];
 
 
