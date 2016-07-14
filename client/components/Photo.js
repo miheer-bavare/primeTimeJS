@@ -9,7 +9,7 @@ const Photo = React.createClass({
       <figure className="grid-figure">
         <div className="grid-photo-wrap">
           <Link to={`/view/${post.code}`}>
-            <img src={post.display_src} alt={post.caption} className="grid-photo" />
+            <div className="idea">{post.caption}</div>
           </Link>
 
           <CSSTransitionGroup transitionName="like" transitionEnterTimeout={500} transitionLeaveTimeout={500}>
@@ -18,18 +18,17 @@ const Photo = React.createClass({
 
         </div>
 
-        <figcaption>
-          <p>{post.caption}</p>
+        <buttons>
           <div className="control-buttons">
             <button onClick={this.props.increment.bind(null, i)} className="likes">&hearts; {post.likes}</button>
             <Link className="button" to={`/view/${post.code}`}>
               <span className="comment-count">
-                <span className="speech-bubble"></span>
+                <span className="speech-bubble"></span> &nbsp;
                 {comments[post.code] ? comments[post.code].length : 0 }
               </span>
             </Link>
           </div>
-        </figcaption>
+        </buttons>
 
       </figure>
     )
